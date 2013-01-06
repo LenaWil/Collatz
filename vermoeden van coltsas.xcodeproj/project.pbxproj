@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F137A81699F4BD00DBAD8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54F137A71699F4BD00DBAD8A /* main.cpp */; };
+		54F137AA1699F4BD00DBAD8A /* vermoeden_van_coltsas.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54F137A91699F4BD00DBAD8A /* vermoeden_van_coltsas.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54F137A11699F4BD00DBAD8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				54F137AA1699F4BD00DBAD8A /* vermoeden_van_coltsas.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54F137A31699F4BD00DBAD8A /* vermoeden van coltsas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "vermoeden van coltsas"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F137A71699F4BD00DBAD8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		54F137A91699F4BD00DBAD8A /* vermoeden_van_coltsas.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = vermoeden_van_coltsas.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F137A01699F4BD00DBAD8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F137981699F4BC00DBAD8A = {
+			isa = PBXGroup;
+			children = (
+				54F137A61699F4BD00DBAD8A /* vermoeden van coltsas */,
+				54F137A41699F4BD00DBAD8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F137A41699F4BD00DBAD8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F137A31699F4BD00DBAD8A /* vermoeden van coltsas */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F137A61699F4BD00DBAD8A /* vermoeden van coltsas */ = {
+			isa = PBXGroup;
+			children = (
+				54F137A71699F4BD00DBAD8A /* main.cpp */,
+				54F137A91699F4BD00DBAD8A /* vermoeden_van_coltsas.1 */,
+			);
+			path = "vermoeden van coltsas";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F137A21699F4BD00DBAD8A /* vermoeden van coltsas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F137AD1699F4BD00DBAD8A /* Build configuration list for PBXNativeTarget "vermoeden van coltsas" */;
+			buildPhases = (
+				54F1379F1699F4BD00DBAD8A /* Sources */,
+				54F137A01699F4BD00DBAD8A /* Frameworks */,
+				54F137A11699F4BD00DBAD8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vermoeden van coltsas";
+			productName = "vermoeden van coltsas";
+			productReference = 54F137A31699F4BD00DBAD8A /* vermoeden van coltsas */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F1379A1699F4BC00DBAD8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Het Veldhuis";
+			};
+			buildConfigurationList = 54F1379D1699F4BC00DBAD8A /* Build configuration list for PBXProject "vermoeden van coltsas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54F137981699F4BC00DBAD8A;
+			productRefGroup = 54F137A41699F4BD00DBAD8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F137A21699F4BD00DBAD8A /* vermoeden van coltsas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F1379F1699F4BD00DBAD8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F137A81699F4BD00DBAD8A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54F137AB1699F4BD00DBAD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54F137AC1699F4BD00DBAD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54F137AE1699F4BD00DBAD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54F137AF1699F4BD00DBAD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F1379D1699F4BC00DBAD8A /* Build configuration list for PBXProject "vermoeden van coltsas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F137AB1699F4BD00DBAD8A /* Debug */,
+				54F137AC1699F4BD00DBAD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F137AD1699F4BD00DBAD8A /* Build configuration list for PBXNativeTarget "vermoeden van coltsas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F137AE1699F4BD00DBAD8A /* Debug */,
+				54F137AF1699F4BD00DBAD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F1379A1699F4BC00DBAD8A /* Project object */;
+}
