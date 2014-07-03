@@ -11,17 +11,18 @@
 
 int main ()
 {
-    
+
     unsigned int keren=0;
-    unsigned long long int getal;
+    unsigned long long int getal=0;
     //unsigned char oneven;
     printf("\nVoer een getal in(kan maximaal %llu zijn (2^%lu-1), en gebruik geen '.' of '-'):", ULONG_LONG_MAX, (sizeof(unsigned long long int)<<3));
-    scanf("%llu", &getal);
+begin:
+	scanf("%llu", &getal);
     //getal=27;
     
     if (getal==0) {
-        printf("geef geen 0 op\n");
-        return -1;
+        printf("geef geen 0 op:");
+        goto begin;
     }
     while (getal!= 1) {
         printf("getal %d\t=%llu\n", keren++, getal);
