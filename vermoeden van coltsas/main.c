@@ -14,7 +14,7 @@ int main ()
 	unsigned int keren=0;
 	unsigned long long int getal=0;
 	//unsigned char oneven;
-	printf("\nVoer een getal in(kan maximaal %llu zijn (2^%lu-1), en gebruik geen '.' of '-'):", ULONG_LONG_MAX, (sizeof(unsigned long long int)<<3));
+	printf("\nVoer een getal in(kan maximaal %llu zijn (2^%lu-1) en gebruik geen '.' of '-'):", ULONG_LONG_MAX, (sizeof(unsigned long long int)<<3));
 begin:
 	scanf("%llu", &getal);
 	//getal=27;
@@ -28,16 +28,12 @@ begin:
 		//oneven= ;
 		if ((getal & 1)== 1) {
 			if (ULONG_LONG_MAX/3<=getal) {
-				printf("getal %d: ?(getal te hoog)\nHet Programma sluit zich nu af", keren++);
+				printf("getal %d: ? (getal te hoog)\nHet Programma sluit zich nu af", keren++);
 				return -2;
 			}
 			getal=(getal*3+1);}
-		else {
-			getal>>=1;
-	}
+		else getal>>=1;
 	}
 	printf("getal %d\t=%llu\nHet duurde %d keer\n", keren, getal, keren);
 	return keren;
 }
-
-
